@@ -135,12 +135,15 @@ header a {
   right: 1rem;
   bottom: 5.5rem;
   height: 44px;
-  padding: 0 1rem;
+  padding: 0 1.1rem;
   border-radius: 22px;
   border: 1px solid #2a3a4d;
   background: var(--panel);
   color: var(--fg);
   font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
@@ -232,6 +235,9 @@ header a {
 
 #rute-lukk {
   float: right;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
   background: none;
   border: none;
   color: var(--muted);

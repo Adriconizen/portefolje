@@ -21,7 +21,7 @@ Ingen eksterne npm-avhengigheter — bruker Node sin innebygde `fetch` og `http`
 
 - **Kart over alle 459 bomstasjoner**, klynget for lesbarhet, med søk/filter på navn, anlegg og kommune
 - **"Bommer nær meg"**: bruker telefonens posisjon til å sentrere kartet
-- **Ruteplanlegger** (trykk "🧭 Rute", velg start- og sluttpunkt på kartet): viser distanse, tid og summerte bompenger for ruten, med liste over hvilke bomstasjoner som ligger langs veien
+- **Ruteplanlegger** (trykk "Rute"-knappen, velg start- og sluttpunkt på kartet): viser distanse, tid og summerte bompenger for ruten, med liste over hvilke bomstasjoner som ligger langs veien
 
 ### Om "bomfri-modus" / ruter sortert på pris
 

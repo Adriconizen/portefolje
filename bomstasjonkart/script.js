@@ -191,7 +191,7 @@ function settOppRuteplanlegger(kart, bomstasjoner) {
         `;
       })
       .join("");
-    panel.innerHTML = `<button id="rute-lukk">✕ Lukk</button><div style="clear:both"></div>${kort}`;
+    panel.innerHTML = `<button id="rute-lukk"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20"/></svg> Lukk</button><div style="clear:both"></div>${kort}`;
     panel.classList.add("vis");
 
     panel.querySelectorAll(".rute-kort").forEach((el) => {
