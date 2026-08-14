@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bomstasjonkart Norge</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bomstasjoner i Norge</h1>
+    <p>
+      Alle <span id="antall-total">…</span> bomstasjoner, hentet direkte fra Statens vegvesens
+      <a href="https://nvdb.no" target="_blank" rel="noopener">NVDB</a>. Data hentet <span id="hentet-dato"></span>.
+    </p>
+    <div class="filter">
+      <label for="sok">Søk (navn / kommune / anlegg)</label>
+      <input id="sok" type="search" placeholder="f.eks. Bergen, Fjellinjen, E39 …" />
+      <span id="antall-vist"></span>
+    </div>
+  </header>
+
+  <div id="kart"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
