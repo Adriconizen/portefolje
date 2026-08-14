@@ -1,0 +1,16 @@
+{
+  "name": "Bomstasjonkart Norge",
+  "short_name": "Bomstasjoner",
+  "description": "Interaktivt kart over alle bomstasjoner i Norge, med takst og rushtidstakst.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f1720",
+  "theme_color": "#0f1720",
+  "lang": "nb",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
